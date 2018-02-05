@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0px;
+        }
+        
+        .container_main {
+            width: 1350px;
+            height: 100%;
+        }
+        
+        .header {
+            width: 1350px;
+            height: 100px;
+        }
+        
+        .head_font {
+            margin-top: 25px;
+            font-size: 44px;
+            letter-spacing: 2px;
+        }
+        
+        .head {
+            height: 100px;
+            width: 1250px;
+            float: left;
+            color: #00cc99;
+            text-align: center;
+        }
+        
+        .logo_img {
+            float: left;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .table_bg {
+            background-color: #eeeeee;
+            height: 75px;
+        }
+        
+        .table_a {
+            color: #333;
+            text-decoration: initial;
+        }
+        
+        .container {
+            width: 1000px;
+            height: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .content {
+            float: left;
+            background-color: #eeeeee;
+            width: 300px;
+            padding: 10px;
+            margin: 2px;
+        }
+        
+        .cont_head {
+            text-align: center;
+            color: #00cc99;
+        }
+        
+        .footer {
+            text-align: center;
+            background-color: #eeeeee;
+            color: #00cc99;
+            height: 75px;
+            width: 1350px;
+            float: left;
+        }
+        
+        #click1,
+        #click2,
+        #click3 {
+            border: 0;
+            padding: 5px;
+            background-color: #00cc99;
+            color: white;
+        }
+        
+        #desc1,
+        #desc2,
+        #desc3 {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container_main">
+        <!--
+<div class="header">
+<div class="logo_img">
+<img src="images/logo.png">
+</div>
+<div class="head">
+<h1 class="head_font">INDIAN RAILWAY SERVICES</h1>
+</div>
+</div>
+
+<div class="banner">
+<img src="images/banner.jpg" style="width:1350px;">
+</div>
+-->
+
+        <table>
+            <tr>
+                <th><img src="images/logo.png"></th>
+                <th colspan="7" class="head">
+                    <h1 class="head_font">INDIAN RAILWAY SERVICES</h1></th>
+            </tr>
+            <tr>
+                <th colspan="7"><img src="images/banner.jpg" style="width:1350px;"></th>
+            </tr>
+        </table>
+
+        <table style="width:100%">
+            <tr class="table_bg">
+                <th><a class="table_a" href="index.html">HOME</a></th>
+                <th><a class="table_a" href="aboutus.html">ABOUT US</th>
+                <th><a class="table_a" href="booking.html">BOOKING</th>
+                <th><a class="table_a" href="schedules.html">SCHEDULES</a></th>
+                <th><a class="table_a" href="contact.html">CONTACT</a></th>
+            </tr>
+        </table>
+
+        <table class="container">
+            <tr>
+                <th class="content">
+                    <h3 class="cont_head">SERVICES</h3>
+                    <img src="images/rail.jpg">
+                    <button id="click1">description</button>
+                    <p id="desc1">Vivamus a massa. Donec iaculis felis id neque. Morbi nunc. Praesent varius egestas velit. Donec a massa ut pede pulvinar vulputate. Nulla et augue. Sed eu nunc quis pede tristique suscipit. Nam sit amet justo vel libero tincidunt dignissim. Cras magna velit, pellentesque mattis, faucibus vitae, feugiat vitae, sapien. Donec ante. Fusce ac orci sit amet velit ultrices condimentum. Integer imperdiet odio ac eros.</p>
+                </th>
+                
+                <th class="content">
+                    <h3 class="cont_head">SERVICES</h3>
+                    <img src="images/rail.jpg">
+                    <button id="click2">description</button>
+                    <p id="desc2">Vivamus a massa. Donec iaculis felis id neque. Morbi nunc. Praesent varius egestas velit. Donec a massa ut pede pulvinar vulputate. Nulla et augue. Sed eu nunc quis pede tristique suscipit. Nam sit amet justo vel libero tincidunt dignissim. Cras magna velit, pellentesque mattis, faucibus vitae, feugiat vitae, sapien. Donec ante. Fusce ac orci sit amet velit ultrices condimentum. Integer imperdiet odio ac eros.</p>
+                </th>
+
+                <th class="content">
+                    <h3 class="cont_head">SERVICES</h3>
+                    <img src="images/rail.jpg">
+                    <button id="click3">description</button>
+                    <p id="desc3">Vivamus a massa. Donec iaculis felis id neque. Morbi nunc. Praesent varius egestas velit. Donec a massa ut pede pulvinar vulputate. Nulla et augue. Sed eu nunc quis pede tristique suscipit. Nam sit amet justo vel libero tincidunt dignissim. Cras magna velit, pellentesque mattis, faucibus vitae, feugiat vitae, sapien. Donec ante. Fusce ac orci sit amet velit ultrices condimentum. Integer imperdiet odio ac eros.</p>
+                </th>
+            </tr>
+        </table>
+
+        <!--
+<div id="home" class="container">
+<div class="content">
+<h3 class="cont_head">SERVICES</h3>
+<img src="images/rail.jpg">
+<button id="click1" >description</button>
+<p id="desc1">Vivamus a massa. Donec iaculis felis id neque. Morbi nunc. Praesent varius egestas velit. Donec a massa ut pede pulvinar vulputate. Nulla et augue. Sed eu nunc quis pede tristique suscipit. Nam sit amet justo vel libero tincidunt dignissim. Cras magna velit, pellentesque mattis, faucibus vitae, feugiat vitae, sapien. Donec ante. Fusce ac orci sit amet velit ultrices condimentum. Integer imperdiet odio ac eros.</p>
+</div>
+
+<div class="content">
+<h3 class="cont_head">SERVICES</h3>
+<img src="images/rail.jpg">
+<button id="click2" >description</button>
+<p id="desc2">Vivamus a massa. Donec iaculis felis id neque. Morbi nunc. Praesent varius egestas velit. Donec a massa ut pede pulvinar vulputate. Nulla et augue. Sed eu nunc quis pede tristique suscipit. Nam sit amet justo vel libero tincidunt dignissim. Cras magna velit, pellentesque mattis, faucibus vitae, feugiat vitae, sapien. Donec ante. Fusce ac orci sit amet velit ultrices condimentum. Integer imperdiet odio ac eros.</p>
+</div>
+
+<div class="content">
+<h3 class="cont_head">SERVICES</h3>
+<img src="images/rail.jpg">
+<button id="click3" >description</button>
+<p id="desc3">Vivamus a massa. Donec iaculis felis id neque. Morbi nunc. Praesent varius egestas velit. Donec a massa ut pede pulvinar vulputate. Nulla et augue. Sed eu nunc quis pede tristique suscipit. Nam sit amet justo vel libero tincidunt dignissim. Cras magna velit, pellentesque mattis, faucibus vitae, feugiat vitae, sapien. Donec ante. Fusce ac orci sit amet velit ultrices condimentum. Integer imperdiet odio ac eros.</p>
+</div>
+</div>
+-->
+
+        <table>
+            <tr>
+                <th class="footer">
+                    <p style="padding:13px">All rights reserved@2015</p>
+                </th>
+            </tr>
+        </table>
+
+        <!--
+<div class="footer"><p style="padding:13px">All rights reserved@2015</p></div>
+</div>
+-->
+
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/adarsh.js"></script>
+
+</body>
+
+</html>

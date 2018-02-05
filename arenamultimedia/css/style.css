@@ -1,0 +1,135 @@
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+@font-face {
+    font-family: blackfat;
+    src: url(../font/blackfat/Blackfat.ttf);
+}
+
+@font-face {
+    font-family: imprima;
+    src: url(../font/imprima/Imprima-Regular.ttf);
+}
+
+.blackfat {
+    font-family: blackfat!important;
+}
+
+nav ul a,
+nav .brand-logo {
+    color: #D32F2F;
+    font-weight: bold;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.button-collapse {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-height: 500px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+.contactform_area {
+    width: 90%;
+    margin: auto;
+}
+
+.zoomscale {
+    transition: all 0.5s;
+}
+
+.zoomscale:hover .card {
+/*    transform: scale(1.1, 1.1);*/
+        box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.box90 {
+    width: 90%;
+    padding: 5%;
+}
+
+.ab_overview_one,
+.ab_overview_two {
+    overflow: auto;
+    padding: 10px 10% 25px;
+}
+
+.ab_overview_video {
+    margin: 100px 0;
+}
+
+.course_area {
+    padding: 0 10%;
+    overflow: auto;
+}
+
+.course_tabbor {
+    border: 1px solid #666;
+    border-radius: 4px;
+}
+
+.event_area {
+    padding: 0 10%;
+}
+
+.siorder ul li{
+    display: inline;
+    margin: 5px;
+}
+
+.siorder ul li a img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.siorder ul li a img:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
